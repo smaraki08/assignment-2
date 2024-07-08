@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(216, 199, 219);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    background-color: rgb(226, 208, 232);
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-right: 2px solid rgb(223, 181, 237);
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.workspace-logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d3c9df;
+    border-radius: 5px;
+    border: 1px solid #b59db5;
+}
+
+.tab-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color:rgb(221, 175, 236);
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.account a {
+    text-decoration: none;
+    color: #0b0909;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #d3c9df;
+    border-radius: 5px;
+    border: 1px solid #b59db5;
+    margin-top: 20px;
+}
+
+.account a:hover {
+    background-color: rgb(213, 144, 235);
+}
+
+.account-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(215, 186, 225);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b59db5;
+}
+
+header input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border-right: none;
+}
+
+header .search-icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 0 5px 5px 0;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.departments-header {
+    background-color: rgb(209, 142, 232);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f1f8e9;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 10px;
+    height: 20px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button, .pagination span {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
